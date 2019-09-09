@@ -1,0 +1,10 @@
+					SAIMU
+- Download node js : https://nodejs.org/download/release/v10.9.0/
+- Chạy ssh vào server dev3 (front end) : ssh -i fuzuki-law.pem ubuntu@3.113.203.44
+- Clone dự án -> chạy npm install -> npm run-script build
+- Clone laradock vào trong thư mục dist -> config .env : APP_CODE_PATH_HOST=../../ —> config trong thư mục nginx/sites/default.conf : root /var/www/dist;
+- Src/config.js : const uri = 'https://saimu-dev-back.fuzuki-crm.jp';  —> const uri = 'https://saimu-dev3-back.fuzuki-crm.jp'; (bỏ comment)
+- ID Amazon : 057730258379
+- Account Amazon : stansupp-vietnam stansuppdeha
+- Account GIT : stansupp-vietnam-at-057730258379 3SMFVOGlt+ZLCDE5pl/3j3h8AbrUIJ9YS65akX751PE=
+- i-05b7df3eaf6b78235
